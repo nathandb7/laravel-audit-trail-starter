@@ -1,0 +1,51 @@
+{
+    "name": "nathandebarros/laravel-audit-trail-starter",
+    "description": "A modern Laravel starter/package to record important user actions in an immutable audit trail.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nathan de Barros"
+        }
+    ],
+    "require": {
+        "php": "^8.3",
+        "illuminate/contracts": "^13.0",
+        "illuminate/database": "^13.0",
+        "illuminate/http": "^13.0",
+        "illuminate/routing": "^13.0",
+        "illuminate/support": "^13.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^11.0",
+        "phpunit/phpunit": "^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "NathanDeBarros\\AuditTrail\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "NathanDeBarros\\AuditTrail\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NathanDeBarros\\AuditTrail\\AuditTrailServiceProvider"
+            ],
+            "aliases": {
+                "AuditTrail": "NathanDeBarros\\AuditTrail\\Facades\\AuditTrail"
+            }
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

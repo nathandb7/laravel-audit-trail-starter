@@ -1,0 +1,5 @@
+/demo-app export-ignore
+/.idea export-ignore
+/.vscode export-ignore
+/.phpunit.result.cache export-ignore
+/.phpunit.cache export-ignore

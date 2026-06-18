@@ -1,0 +1,13 @@
+/vendor/
+/demo-app/
+/examples/screenshots/.edge-*/
+/.phpunit.result.cache
+/.phpunit.cache/
+/composer.phar
+/.env
+/.env.*
+/.idea/
+/.vscode/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

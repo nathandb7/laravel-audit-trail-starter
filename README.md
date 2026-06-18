@@ -8,7 +8,7 @@ A lightweight and modern audit trail starter for Laravel applications.
 
 Record important user actions, model changes, route activity, authentication events, and critical business operations in an immutable activity history.
 
-Created by **Nathan de Barros**.
+Created and maintained by **Nathan de Barros**.
 
 ## Features
 
@@ -177,6 +177,10 @@ composer test
 ## Contributing
 
 Pull requests are welcome. Keep the package small, readable, and focused on reliable audit history.
+
+## Author
+
+**Nathan de Barros**
 
 ## License
 
